@@ -55,11 +55,19 @@ type listResponse struct {
 }
 
 func (l listResponse) MarshalJSON() ([]byte, error) {
-	return json.Marshal(map[string]interface{}{
+	// Start with the mandatory fields
+	responseMap := map[string]interface{}{
 		"schemas":      []string{"urn:ietf:params:scim:api:messages:2.0:ListResponse"},
 		"totalResults": l.TotalResults,
 		"itemsPerPage": l.ItemsPerPage,
 		"startIndex":   l.StartIndex,
-		"Resources":    l.Resources,
-	})
+	}
+
+	// Only add the resources field if it's not empty
+	if len(l.Resources) > 0 {
+		responseMap["resources"] = l.Resources
+	}
+
+	return json.Marshal(responseMap)
 }
+
