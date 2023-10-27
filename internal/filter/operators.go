@@ -2,8 +2,9 @@ package filter
 
 import (
 	"fmt"
+
+	"github.com/common-fate/scim/schema"
 	datetime "github.com/di-wu/xsd-datetime"
-	"github.com/elimity-com/scim/schema"
 	"github.com/scim2/filter-parser/v2"
 )
 

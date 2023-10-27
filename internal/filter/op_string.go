@@ -2,9 +2,10 @@ package filter
 
 import (
 	"fmt"
-	"github.com/elimity-com/scim/schema"
-	"github.com/scim2/filter-parser/v2"
 	"strings"
+
+	"github.com/common-fate/scim/schema"
+	"github.com/scim2/filter-parser/v2"
 )
 
 func cmpStr(ref string, caseExact bool, cmp func(v, ref string) error) (func(interface{}) error, error) {

@@ -6,9 +6,9 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/common-fate/scim/errors"
+	"github.com/common-fate/scim/optional"
 	datetime "github.com/di-wu/xsd-datetime"
-	"github.com/elimity-com/scim/errors"
-	"github.com/elimity-com/scim/optional"
 )
 
 // CoreAttribute represents those attributes that sit at the top level of the JSON object together with the common

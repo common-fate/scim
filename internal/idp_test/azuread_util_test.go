@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/elimity-com/scim"
-	"github.com/elimity-com/scim/errors"
-	"github.com/elimity-com/scim/optional"
-	"github.com/elimity-com/scim/schema"
+	"github.com/common-fate/scim"
+	"github.com/common-fate/scim/errors"
+	"github.com/common-fate/scim/optional"
+	"github.com/common-fate/scim/schema"
 	"github.com/scim2/filter-parser/v2"
 )
 

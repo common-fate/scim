@@ -2,10 +2,11 @@ package filter_test
 
 import (
 	"fmt"
-	internal "github.com/elimity-com/scim/internal/filter"
-	"github.com/elimity-com/scim/schema"
-	"github.com/scim2/filter-parser/v2"
 	"testing"
+
+	internal "github.com/common-fate/scim/internal/filter"
+	"github.com/common-fate/scim/schema"
+	"github.com/scim2/filter-parser/v2"
 )
 
 func TestValidatorDecimal(t *testing.T) {

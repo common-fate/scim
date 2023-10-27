@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/elimity-com/scim/errors"
-	f "github.com/elimity-com/scim/internal/filter"
-	"github.com/elimity-com/scim/schema"
+	"github.com/common-fate/scim/errors"
+	f "github.com/common-fate/scim/internal/filter"
+	"github.com/common-fate/scim/schema"
 )
 
 func errorHandler(w http.ResponseWriter, _ *http.Request, scimErr *errors.ScimError) {

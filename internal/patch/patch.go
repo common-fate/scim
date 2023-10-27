@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	f "github.com/elimity-com/scim/internal/filter"
-	"github.com/elimity-com/scim/schema"
+	f "github.com/common-fate/scim/internal/filter"
+	"github.com/common-fate/scim/schema"
 	"github.com/scim2/filter-parser/v2"
 )
 

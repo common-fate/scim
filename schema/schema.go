@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/elimity-com/scim/errors"
-	"github.com/elimity-com/scim/optional"
+	"github.com/common-fate/scim/errors"
+	"github.com/common-fate/scim/optional"
 )
 
 const (

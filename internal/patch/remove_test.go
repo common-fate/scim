@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/elimity-com/scim/schema"
+	"github.com/common-fate/scim/schema"
 )
 
 // The following example shows how remove all members of a group.
